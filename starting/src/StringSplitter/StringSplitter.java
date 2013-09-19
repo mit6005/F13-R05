@@ -17,6 +17,7 @@ public class StringSplitter {
         }
 
         // Split using indexOf method.
+        String newHaystack = haystack;
         int index = newHaystack.indexOf(needle);
         List<String> resultList = new ArrayList<String>();
 
